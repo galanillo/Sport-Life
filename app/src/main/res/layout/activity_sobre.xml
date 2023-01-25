@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estamos convencidos de que el deporte es una fuente de placer y bienestar. Es por ello que nuestra mision es hacer accesible, de manera sostenible, el placer y los beneficios de la practica del deporte al mayor numero de personas. En todos los paises en los que estamos presentes compartimos una cultura de empresa fuerte y unica, reforzada por nuestros 4 valores: vitalidad, responsabilidad, generosidad y autenticidad. Mantenemos una firme apuesta por la innovacion en todas las fases de nuestra cadena de valor: desde la investigacion y el desarrollo hasta la venta, pasando por la concepcion, el diseño, la produccion y la logistica, y por crecer de forma responsable con el medioambiente."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="187dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

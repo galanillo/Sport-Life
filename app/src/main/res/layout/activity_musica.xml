@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Musica">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttoninfo2"
+            style="@style/colorboton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Infoooo"
+            android:visibility="invisible"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttoncontinuar"
+            style="@style/colorboton"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Continuar"
+            app:layout_column="2"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/buttoninfo"
+            style="@style/colorboton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:visibility="invisible"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/fuente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/buttonpausar"
+            style="@style/colorboton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="Pausar"
+            app:layout_column="3"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/buttonparar"
+            style="@style/colorboton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="Parar"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/buttonvolmas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Vol +"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/buttonvolmenos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Vol -"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/empezar"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:background="@color/Black"
+            android:text="Comenzar"
+            android:textColor="@color/White"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="206dp"
+            android:layout_height="314dp"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/finalcountdown" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</RelativeLayout>

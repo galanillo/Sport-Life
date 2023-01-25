@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="66dp">
+
+        <TableLayout
+            android:id="@+id/TableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            tools:context=".RegActivity"
+            tools:ignore="HardcodedText">
+
+            <Button
+                android:id="@+id/button_1"
+                style="@style/colorboton"
+                android:layout_width="226dp"
+                android:layout_height="72dp"
+                android:layout_margin="10dp"
+                android:background="#FF0000"
+                android:text="Cerrar Sesion" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                style="s"
+                android:layout_width="318dp"
+                android:layout_height="268dp"
+                android:src="@drawable/calendario" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/colorboton"
+                android:layout_width="148dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:text="Calendario  deportivo" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="350dp"
+                android:layout_height="260dp"
+                android:src="@drawable/musica" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/colorboton"
+                android:layout_width="148dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:text="Musica para entrenar" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="406dp"
+                android:layout_height="225dp"
+                android:src="@drawable/cronometro" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/colorboton"
+                android:layout_width="148dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:text="Cronometro" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="342dp"
+                android:layout_height="222dp"
+                android:src="@drawable/gps" />
+
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/colorboton"
+                android:layout_width="148dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:text="Mapa de ruta" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="329dp"
+                android:layout_height="214dp"
+                android:src="@drawable/videos" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/colorboton"
+                android:layout_width="148dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:text="Videos para entrenar"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="167dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="330dp"
+                android:layout_height="226dp"
+                android:src="@drawable/historial" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/colorboton"
+                android:layout_width="148dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:text="Historial deportivo"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="167dp" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

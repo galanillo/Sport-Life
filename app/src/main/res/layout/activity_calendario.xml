@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calendario">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/info"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Introduzca la tarea que desea realizar y seleccione el día:" />
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="match_parent"
+            android:layout_height="357dp"
+            android:numColumns="7" />
+
+        <TextView
+            android:id="@+id/dia"
+            android:layout_width="match_parent"
+            style="@style/edittext"
+            android:layout_height="45dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/info2"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarea:" />
+
+        <EditText
+            android:id="@+id/edittarea"
+            style="@style/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+            <TextView
+                android:id="@+id/info3"
+                style="@style/edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dia:" />
+
+            <EditText
+                android:id="@+id/editdia"
+                style="@style/edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        <Button
+            android:id="@+id/botonregistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/colorboton"
+            android:text="insertar tarea y dia" />
+
+            <Button
+                android:id="@+id/botoneliminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/colorboton"
+                android:text="eliminar tarea y dia" />
+
+        <TextView
+            android:id="@+id/dia1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

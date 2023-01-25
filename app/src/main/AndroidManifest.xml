@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sportlife">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_size"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SportLife"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Calendario"
+            android:exported="true"
+            android:label="Calendario" />
+        <activity
+            android:name=".SobreNosotros"
+            android:exported="true"
+            android:label="Sobre nosotros" />
+        <activity
+            android:name=".RegActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Mapa"
+            android:exported="true"
+            android:label="@string/title_activity_mapa" />
+        <activity
+            android:name=".Cronometro"
+            android:exported="true"
+            android:label="Cronometro" />
+        <activity
+            android:name=".Historial"
+            android:exported="true"
+            android:label="Historial" />
+        <activity
+            android:name=".Videos"
+            android:exported="true"
+            android:label="Videos" />
+        <activity
+            android:name=".Musica"
+            android:exported="true"
+            android:label="Musica" />
+        <activity
+            android:name=".Tareas"
+            android:exported="true"
+            android:label="Tareas" />
+    </application>
+
+</manifest>
